@@ -101,38 +101,38 @@ export const singleProjectData = {
 			},
 		],
 		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
-		],
+		// SocialSharing: [
+		// 	{
+		// 		id: 1,
+		// 		name: 'Twitter',
+		// 		icon: <FiTwitter />,
+		// 		url: 'https://twitter.com/realstoman',
+		// 	},
+		// 	{
+		// 		id: 2,
+		// 		name: 'Instagram',
+		// 		icon: <FiInstagram />,
+		// 		url: 'https://instagram.com/realstoman',
+		// 	},
+		// 	{
+		// 		id: 3,
+		// 		name: 'Facebook',
+		// 		icon: <FiFacebook />,
+		// 		url: 'https://facebook.com/',
+		// 	},
+		// 	{
+		// 		id: 4,
+		// 		name: 'LinkedIn',
+		// 		icon: <FiLinkedin />,
+		// 		url: 'https://linkedin.com/',
+		// 	},
+		// 	{
+		// 		id: 5,
+		// 		name: 'Youtube',
+		// 		icon: <FiYoutube />,
+		// 		url: 'https://www.youtube.com/c/StomanStudio',
+		// 	},
+		// ],
 	},
 	RelatedProject: {
 		title: 'Related Projects',
