@@ -18,8 +18,8 @@ const ProjectsGrid = ({ limit }) => {
 	const displayedProjects = selectProject
 		? selectProjectsByCategory.slice(0, limit)
 		: searchProject
-		? searchProjectsByTitle.slice(0, limit)
-		: projects.slice(0, limit);
+			? searchProjectsByTitle.slice(0, limit)
+			: projects.slice(0, limit);
 
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
@@ -33,6 +33,7 @@ const ProjectsGrid = ({ limit }) => {
 				<div
 					className="
                         flex
+						flex-row
                         justify-between
                         border-b border-primary-light
                         dark:border-secondary-dark
@@ -40,7 +41,7 @@ const ProjectsGrid = ({ limit }) => {
                         gap-3
                         "
 				>
-					<div className="flex justify-between gap-2">
+					<div className="flex  w-1/2 gap-2">
 						<span
 							className="
                                 hidden
