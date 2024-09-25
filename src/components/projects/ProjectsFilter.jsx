@@ -1,6 +1,6 @@
 const selectOptions = [
 	'Web Application',
-	'UI/UX Design',
+	'UI/UX Design & Branding',
 	'Management Dashboard',
 ];
 

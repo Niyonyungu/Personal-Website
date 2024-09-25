@@ -7,6 +7,7 @@ import plantex from "../images/plantex.jpg"
 import spgas from "../images/spgas.jpg"
 import spg from "../images/spg.jpg"
 import hld from "../images/Holiday.jpg"
+import choice from "../images/SideViewBig.jpg"
 
 export const projectsData = [
 
@@ -55,13 +56,20 @@ export const projectsData = [
 	},
 	{
 		id: 7,
+		title: 'The Choice Bakery & Coffe (Branding)',
+		category: 'UI/UX Design & Branding',
+		livelink: 'https://www.figma.com/design/UxHq19ZVoytann9mEDpKHR/Branding-Design?node-id=271-70&t=wQTuepqpAFK45ovi-1',
+		img: choice,
+	},
+	{
+		id: 8,
 		title: 'SP Gas Rwanda Design (Demo)',
-		category: 'UI/UX Design',
+		category: 'UI/UX Design & Branding',
 		livelink: 'https://www.figma.com/design/CDb79xizTaBkCjIUDcNChN/SP-project?node-id=0-1&t=4gjNA1XnZfePMLBm-1',
 		img: spgas,
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'Holiday Planners',
 		category: 'Web Application',
 		livelink: 'https://holiday-planner-theta.vercel.app/',
