@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Button from '../reusable/Button';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -150,13 +149,12 @@ const ContactForm = () => {
           </div>
 
           <div className="mt-6">
-            <Button
-              title={isSubmitting ? 'Sending...' : 'Send Message'}
-              type="submit"
-              aria-label="Send Message"
-              disabled={isSubmitting}
-              className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-black hover:bg-[#3e6653] focus:ring-1 focus:ring-black rounded-lg duration-500"
-            />
+            <button 
+            disabled={isSubmitting}
+            className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-black hover:bg-[#3e6653] focus:ring-1 focus:ring-black rounded-lg duration-500"
+            >
+            {isSubmitting ? 'Sending...' : 'Send Message'}
+            </button>
           </div>
 
           {error && <p className="text-red-500 mt-4">{error}</p>}
