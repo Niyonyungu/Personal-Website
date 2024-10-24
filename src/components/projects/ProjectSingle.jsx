@@ -28,7 +28,7 @@ const ProjectSingle = ({ title, category, livelink, image }) => {
 					<span className="text-lg text-ternary-dark dark:text-ternary-light">
 						{category}
 					</span>
-					<a href={livelink} aria-label="Project Link" title='View' target="_blank" rel="noreferrer" className='cursor-pointer '><FiLink /></a>
+					<a href={livelink} aria-label="Project Link" title='View' target="_blank" rel="noreferrer" className='cursor-pointer flex flex-row justify-center items-center gap-2 bg-slate-500 py-1 px-3 rounded'><FiLink /> Preview</a>
 				</div>
 			</div>
 		</motion.div>

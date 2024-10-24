@@ -8,7 +8,6 @@ import AppHeader from './components/shared/AppHeader';
 import UseScrollToTop from './hooks/useScrollToTop';
 import { Analytics } from '@vercel/analytics/react';
 
-
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
@@ -19,7 +18,6 @@ function App() {
 
 	return (
 		<>
-
 			<AnimatePresence>
 				<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 					<Router>

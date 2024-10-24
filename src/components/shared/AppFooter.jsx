@@ -4,6 +4,7 @@ import {
 	FiLinkedin,
 	FiInstagram,
 } from 'react-icons/fi';
+import { FaWhatsapp } from "react-icons/fa";
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
@@ -27,6 +28,11 @@ const socialLinks = [
 		id: 4,
 		icon: <FiInstagram />,
 		url: 'https://www.instagram.com/mg_vainqueur/?hl=en',
+	},
+	{
+		id: 5,
+		icon: <FaWhatsapp />,
+		url: 'https://wa.me/+250784998214',
 	},
 ];
 
