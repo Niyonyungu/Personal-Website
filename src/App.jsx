@@ -6,6 +6,7 @@ import ScrollToTop from './components/ScrollToTop';
 import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import UseScrollToTop from './hooks/useScrollToTop';
+import { Analytics } from '@vercel/analytics/react';
 
 
 const About = lazy(() => import('./pages/AboutMe'));
@@ -41,6 +42,7 @@ function App() {
 					</Router>
 					<UseScrollToTop />
 				</div>
+				<Analytics />
 			</AnimatePresence>
 
 		</>
