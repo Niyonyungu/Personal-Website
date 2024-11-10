@@ -5,6 +5,6 @@ export const aboutMeData = [
 	},
 	{
 		id: 1,
-		bio: "I love helping businesses of all sizes by designing and developing stylish, modern websites, web services, and E-Commerce stores. I'm passionate about creating digital experiences that are both visually striking and easy to use. Let's work together to bring your vision to life with innovative, user-focused designs that truly connect with your audience.",
+		bio: "I love helping businesses of all sizes by designing and developing stylish, modern websites. I'm passionate about creating digital experiences that are both visually striking and easy to use. Let's work together to bring your vision to life with innovative, user-focused designs that truly connect with your audience.",
 	},
 ];

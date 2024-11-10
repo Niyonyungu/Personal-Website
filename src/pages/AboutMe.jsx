@@ -24,7 +24,7 @@ const About = () => {
 				exit={{ opacity: 0 }}
 			>
 
-				<div className="container mx-auto flex gap-5 lg:flex-row flex-col  mt-10 justify-between">
+				<div className="container mx-auto flex gap-5 lg:flex-row flex-col  mt-14 justify-between">
 
 					<div className='flex flex-col'>
 						<h1 className='text-xl border-b-7 titleabout  mb-4'>Education</h1>
@@ -32,10 +32,18 @@ const About = () => {
 							<h3 className='text-ternary-dark dark:text-ternary-light'>Iprc Kigali (2021-2023)</h3>
 							<p>Biomedical Equipment Technology</p>
 						</div>
+						<div className='mt-3'>
+							<h3 className='text-ternary-dark dark:text-ternary-light'>K-Lab Rwanda (2023)</h3>
+							<p>Frontend Development</p>
+						</div>
 					</div>
 
 					<div className='flex flex-col'>
 						<h1 className='text-xl border-b-7 titleabout  mb-4'>Experience</h1>
+						<div className='mb-2'>
+							<h3 className='text-ternary-dark dark:text-ternary-light'>CINETIE</h3>
+							<p>Frontend Developer</p>
+						</div>
 						<div className='mb-2'>
 							<h3 className='text-ternary-dark dark:text-ternary-light'>Duhope Cbc</h3>
 							<p>Software Developer</p>
