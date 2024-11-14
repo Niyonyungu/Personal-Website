@@ -90,13 +90,15 @@ const ProjectsGrid = ({ limit }) => {
 			</div>
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
-				{displayedProjects.map((project) => (
+				{displayedProjects?.map((project) => (
 					<ProjectSingle
 						title={project.title}
 						category={project.category}
 						livelink={project.livelink}
+						isPrivate={project.isPrivate}
 						image={project.img}
 						key={project.id}
+
 					/>
 				))}
 			</div>
