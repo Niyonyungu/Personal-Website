@@ -54,7 +54,7 @@ export const projectsData = [
 	},
 	{
 		id: 6,
-		title: 'SP Gas Rwanda (Demo)',
+		title: 'SP Gas Rwanda (Demo) ',
 		category: 'Web Application',
 		livelink: 'https://sp-gas.vercel.app/',
 		isPrivate: false,
