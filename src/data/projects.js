@@ -8,6 +8,7 @@ import spgas from "../images/spgas.jpg"
 import spg from "../images/spg.jpg"
 import hld from "../images/Holiday.jpg"
 import choice from "../images/SideViewBig.jpg"
+import duhopepic from "../images/duhopepic.jpg"
 
 export const projectsData = [
 
@@ -17,7 +18,7 @@ export const projectsData = [
 		category: 'Management Dashboard',
 		livelink: 'https://duhope.org/',
 		isPrivate: true,
-		img: teambelay,
+		img: duhopepic,
 	},
 	{
 		id: 2,
