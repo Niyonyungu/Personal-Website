@@ -9,6 +9,7 @@ import spg from "../images/spg.jpg"
 import hld from "../images/Holiday.jpg"
 import choice from "../images/SideViewBig.jpg"
 import duhopepic from "../images/duhopepic.jpg"
+import fishguide from "../images/fishingguide.png"
 
 export const projectsData = [
 
@@ -30,6 +31,14 @@ export const projectsData = [
 	},
 	{
 		id: 3,
+		title: 'Fishing Guide Rwanda',
+		category: 'Web Application',
+		livelink: 'https://fishingguiderw.netlify.app/#',
+		isPrivate: false,
+		img: fishguide,
+	},
+	{
+		id: 4,
 		title: 'G-Robot',
 		category: 'Web Application',
 		livelink: 'https://g-robot.vercel.app/',
@@ -37,7 +46,7 @@ export const projectsData = [
 		img: grobot,
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Culina Share',
 		category: 'Web Application',
 		livelink: 'https://culina-share-five.vercel.app/',
@@ -46,7 +55,7 @@ export const projectsData = [
 	},
 
 	{
-		id: 5,
+		id: 6,
 		title: 'Plantex',
 		category: 'Web Application',
 		livelink: 'https://plantation-website.vercel.app/',
@@ -54,7 +63,7 @@ export const projectsData = [
 		img: plantex,
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'SP Gas Rwanda (Demo) ',
 		category: 'Web Application',
 		livelink: 'https://sp-gas.vercel.app/',
@@ -62,7 +71,7 @@ export const projectsData = [
 		img: spg,
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'The Choice Bakery & Coffe (Branding)',
 		category: 'UI/UX Design & Branding',
 		livelink: 'https://www.figma.com/design/UxHq19ZVoytann9mEDpKHR/Branding-Design?node-id=271-70&t=wQTuepqpAFK45ovi-1',
@@ -70,7 +79,7 @@ export const projectsData = [
 		img: choice,
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'SP Gas Rwanda Design (Demo)',
 		category: 'UI/UX Design & Branding',
 		livelink: 'https://www.figma.com/design/CDb79xizTaBkCjIUDcNChN/SP-project?node-id=0-1&t=4gjNA1XnZfePMLBm-1',
@@ -78,7 +87,7 @@ export const projectsData = [
 		img: spgas,
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'Holiday Planners Website (Demo)',
 		category: 'Web Application',
 		livelink: 'https://holiday-planner-theta.vercel.app/',
