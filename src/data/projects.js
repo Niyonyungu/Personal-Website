@@ -25,7 +25,7 @@ export const projectsData = [
 		id: 2,
 		title: 'Nbg Rwanda Ltd (Demo)',
 		category: 'Web Application',
-		livelink: 'https://nbg-group-rwanda-ltd.vercel.app/',
+		livelink: 'https://nbg-group-rwanda-ltd-niyonyungu-michel-vainqueurs-projects.vercel.app/',
 		isPrivate: false,
 		img: nbg,
 	},
