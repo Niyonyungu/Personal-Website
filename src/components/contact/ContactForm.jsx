@@ -64,7 +64,7 @@ const ContactForm = () => {
       <div className="leading-loose">
         <form
           onSubmit={handleSubmit}
-          className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
+          className="max-w-xl m-4 p-4 sm:p-8 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
         >
           <p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
             Contact Form
@@ -149,11 +149,11 @@ const ContactForm = () => {
           </div>
 
           <div className="mt-6">
-            <button 
-            disabled={isSubmitting}
-            className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-black hover:bg-[#3e6653] focus:ring-1 focus:ring-black rounded-lg duration-500"
+            <button
+              disabled={isSubmitting}
+              className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-black hover:bg-[#3e6653] focus:ring-1 focus:ring-black rounded-lg duration-500"
             >
-            {isSubmitting ? 'Sending...' : 'Send Message'}
+              {isSubmitting ? 'Sending...' : 'Send Message'}
             </button>
           </div>
 
